@@ -1,0 +1,46 @@
+@media only screen and (max-width:576px){
+  .contact-info{
+    display: flex;
+    flex-flow: column;
+  }
+
+  .contact-text h1{
+    font-size: 36px;
+  }
+
+  .contact-icon{
+    margin-bottom: 8px;
+  }
+}
+
+
+@media only screen and (max-width:992px){
+  .main-header .navbar-collapse {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  background: rgba(173, 239, 209, 0.925);
+  backdrop-filter: blur(10px);
+  text-align: center;
+} 
+
+ .main-header .navbar-toggler{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 4px 9px;
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-btn{
+  padding-bottom: 20px;
+}
+
+.nav-btn a {
+  border: none;
+  background: transparent;
+  color: #000;
+}
+}

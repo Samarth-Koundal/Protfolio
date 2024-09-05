@@ -1,0 +1,63 @@
+@media only screen and (max-width:576px){
+  .nav-btn{
+    padding-bottom: 20px;
+  }
+
+  .nav-btn button{
+    background-color: transparent;
+    border: none;
+  }
+
+}
+
+@media only screen and (max-width:768px){
+  .nav-btn{
+    padding-bottom: 20px;
+  }
+
+  .nav-btn button{
+    background-color: transparent;
+    border: none;
+  }
+ 
+}
+
+@media only screen and (max-width:992px){
+  .main-header .navbar-collapse {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  background: rgba(0, 31, 63, 0.727);
+  backdrop-filter: blur(10px);
+  text-align: center;
+} 
+
+ .main-header .navbar-toggler{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 4px 9px;
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-btn{
+  padding-bottom: 20px;
+}
+
+.nav-link{
+  color: #fff;
+}
+
+.nav-btn button{
+  background-color: transparent;
+  border: none;
+}
+
+.nav-btn a {
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+}

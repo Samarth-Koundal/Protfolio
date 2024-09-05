@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #00203FFF;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  background: #ffffff50;
+  backdrop-filter: blur(8px);
+}
+
+.main-header .navbar-toggler span {
+  width: 25px;
+  height: 2px;
+  background-color: #00203FFF;
+  margin: 4px 0px;
+  transition: 0.3s;
+}
+
+.main-header .navbar-toggler:not(.collapsed) span:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.main-header .navbar-toggler:not(.collapsed) span:nth-child(2) {
+  opacity: 0;
+}
+
+.main-header .navbar-toggler:not(.collapsed) span:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 600;
+  color: #00203FFF;
+}
+
+.navbar-brand:hover {
+  color: #00203FFF;
+}
+
+
+.nav-item {
+  padding-left: 20px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #00203FFF;
+}
+
+.nav-btn a {
+  text-decoration: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #00203FFF;
+  background: #00203FFF;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.nav-btn a:hover {
+  background: transparent;
+  color: #00203FFF;
+  border: 1px solid #00203FFF;
+}
+
+.portfolio{
+padding: 100px 0px;
+}
+
+.port-details{
+  background-color: #ffffff35;
+  backdrop-filter: blur(8px);
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 30px;
+  border-radius: 5px;
+}
+
+.port-text{
+  text-align: center;
+}
+
+.port-text h1{
+  color: #fff;
+  padding-bottom: 20px;
+  font-size: 38px;
+}
+
+.live-text{
+  text-align: center;
+}
+
+.live-text h1{
+  color: #fff;
+font-size: 38px;
+margin: 40px 0px 20px 0px;
+}
+
+.projects{
+  border: 2px solid #f2ededb1;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  transition: .3s ease-in;
+}
+
+.projects:hover{
+  transform: scale(1.03);
+}
+
+.project-img img{
+  width: 100%;
+}
+
+.project-link{
+  text-align: center;
+  background: rgba(0, 31, 63, 0.727);
+}
+
+.project-link a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.project-link a:hover{
+color: rgba(96, 171, 246, 0.727);
+}
